@@ -1,70 +1,85 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🛒 Grocery Buddy
 
-## Available Scripts
+**Grocery Buddy** هو تطبيق قائمة مشتريات تفاعلي مبني باستخدام React.js، بيساعدك تنظم مشترياتك اليومية، تضيف العناصر، تحدد الكمية، وتتابع نسبة الإنجاز بطريقة مرنة وسهلة.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔗 [جرب التطبيق الآن](https://grocery-buddy-sooty.vercel.app)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎯 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ➕ إضافة عنصر جديد مع الاسم والكمية
+- ✅ تحديد العناصر التي تم شراؤها
+- 🗑️ حذف العناصر من القائمة
+- 📊 عرض نسبة الإنجاز اليومية بشكل ديناميكي
+- 🧩 تقسيم التطبيق إلى Components منظمة
+- 📱 تصميم متجاوب يعمل على الموبايل واللابتوب
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ⚛️ React.js
+- 🧠 React Hooks (`useState`)
+- 💅 CSS (Flexbox + Media Queries)
+- 🛠️ Create React App
+- 🌐 Vercel (لنشر التطبيق)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧠 What I Learned
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- ربط الـ form بالـ `useState`
+- استخدام `map()` و `filter()` لإدارة البيانات
+- رفع الحالة (`Lifting State Up`) لمشاركة البيانات بين المكونات
+- استخدام الحالة المشتقة (`Derived State`) لحساب نسبة الإنجاز
+- تصميم واجهات متجاوبة باستخدام Flexbox
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Folder Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+Grocery-Buddy/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Form.jsx
+│   │   ├── GroceryList.jsx
+│   │   ├── GroceryItem.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx
+│   └── index.js
+├── package.json
+└── README.md
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Installation & Running Locally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/Ibrahim-Ashraf-Saber/grocery-buddy.git
+cd grocery-buddy
+npm install
+npm start
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👨‍💻 Author
 
-### Analyzing the Bundle Size
+- 👤 [Ibrahim Ashraf Saber]([https://www.linkedin.com/in/ibrahim-ashraf-saber/](https://www.linkedin.com/in/ibrahim-ashraf-924520259/)
+- 📫 xxibrahimashrafxx@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📃 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MIT License © 2025 Ibrahim Ashraf Saber
